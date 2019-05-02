@@ -108,7 +108,7 @@
         "description": "Text shown in the popup when there are no trackers on the page."
     },
     "options_domain_list_tab": {
-        "message": "Seguiment de dominis",
+        "message": "Dominis de Seguiment",
         "description": "This is an options page tab heading."
     },
     "share_button_title_twitter": {
@@ -120,7 +120,7 @@
         "description": "Part of a reminder to visit the intro page. Shown in popup until the user clicks on the reminder link or browses through the intro page."
     },
     "download": {
-        "message": "Descarregar",
+        "message": "Descarrega",
         "description": ""
     },
     "feed_the_badger_title": {
@@ -347,7 +347,7 @@
     },
     "options_domain_filter_all": {
         "message": "tot",
-        "description": "Dropdown control setting on the Tracking Domains options page tab."
+        "description": "Configureu el control desplegable a la pestanya Dominis de Seguiment a la pàgina d'opcions."
     },
     "report_cancel": {
         "message": "Cancel·lar",
@@ -366,11 +366,11 @@
         "description": "Dropdown control setting on the Tracking Domains options page tab."
     },
     "disabled_for_these_domains": {
-        "message": "<p>Privacy Badger is disabled on the following sites. This means that Privacy Badger will not block anything when you visit the sites listed here.</p><p>If you think Privacy Badger is breaking a page, you can type that page's domain in the box below and click the \"Add domain\" button.</p><p>Alternatively, when you already have the page's tab selected, you can just click on Privacy Badger's button in the browser toolbar and then click the \"Disable\" button.</p>",
+        "message": "<p>Els següents espais web tenen deshabilitat el Privacy Badger. Això vol dir que Privacy Badger no blocarà res quan visiteu els llocs que apareixen a la llista.</p><p>Si creieu que Privacy Badger no deixa funcionar una pàgina, podeu escriure el seu domini al quadre de text següent i clicar \"Afegir domini\".</p><p>Com alternativa, quan tingueu la pàgina en qüestió oberta i a la vista, podeu clicar la icona de Privacy Badger de la barra del navegador i clicar a \"Deshabilita\".</p>",
         "description": ""
     },
     "popup_instructions": {
-        "message": "Privacy Badger detected $COUNT$ potential $TRACKER_LINK_START$trackers$TRACKER_LINK_END$ on this page. These sliders let you control how Privacy Badger handles each one. You shouldn't need to adjust the sliders unless something is broken.",
+        "message": "Privacy Badger ha detectat $COUNT$ $TRACKER_LINK_START$rastrejadors$TRACKER_LINK_END$ potencials en aquesta pàgina. Aquests lliscadors us permeten controlar com, Privacy Badger, actua sobre cadascun d'ells. D'entrada no cladria que toquéssiu res, excepte que alguna cosa no funcioni.",
         "description": "Popup message that shows the number of trackers. This particular message is used when that number is greater than one.",
         "placeholders": {
             "count": {
@@ -379,7 +379,7 @@
             },
             "tracker_link_start": {
                 "content": "$2",
-                "example": "<a title='What is a tracker?' href='https://www.eff.org/privacybadger/faq#What-is-a-third-party-tracker'>"
+                "example": "<a title='Què és un rastrejador?' href='https://www.eff.org/privacybadger/faq#What-is-a-third-party-tracker'>"
             },
             "tracker_link_end": {
                 "content": "</a>"
@@ -387,39 +387,39 @@
         }
     },
     "intro_by_eff": {
-        "message": "A project of the Electronic Frontier Foundation",
+        "message": "Un projecte de l'Electronic Frontier Foundation",
         "description": ""
     },
     "add_domain_button": {
-        "message": "Add domain",
+        "message": "Afegir domini",
         "description": ""
     },
     "options_domain_list_one_tracker": {
-        "message": "Privacy Badger has detected one potential <a target='_blank' tabindex=-1 title='i18n_what_is_a_tracker' class='tooltip' href='https://www.eff.org/privacybadger#faq-What-is-a-third-party-tracker?'>tracking domain</a> so far. The slider lets you control how Privacy Badger handles it.",
+        "message": "Privacy Badger ha detectat, fins ara, un <a target='_blank' tabindex=-1 title='i18n_what_is_a_tracker' class='tooltip' href='https://www.eff.org/privacybadger#faq-What-is-a-third-party-tracker?'>rastrejador</a> potencial. El lliscador us permet controlar com voleu que Privacy Badger el controli.",
         "description": "Shown on the Tracking Domains options page tab when Privacy Badger learned of exactly one tracker so far."
     },
     "tooltip_allow": {
-        "message": "Move the slider right to allow a domain",
+        "message": "Moveu el lliscador cap a la dreta per permetre un domini",
         "description": ""
     },
     "popup_disable_for_site": {
-        "message": "Disable Privacy Badger for This Site",
+        "message": "Deshabiliteu Privacy Badger en aquest lloc",
         "description": "Button in the popup."
     },
     "popup_instructions_one_tracker": {
-        "message": "Privacy Badger detected a potential <a target='_blank' title='i18n_what_is_a_tracker' class='tooltip' href='https://www.eff.org/privacybadger#faq-What-is-a-third-party-tracker?'>tracker</a> on this page. The slider lets you control how Privacy Badger handles it. You shouldn't need to adjust the slider unless something is broken.",
+        "message": "Privacy Badger ha detectat, fins ara, un <a target='_blank' title='i18n_what_is_a_tracker' class='tooltip' href='https://www.eff.org/privacybadger#faq-What-is-a-third-party-tracker?'>rastrejador</a> potencial en aquesta pàgina. El lliscador us permete controlar com, Privacy Badger, actua sobre ells. D'entrada no caldria que toquéssiu res, excepte que alguna cosa no funcioni.",
         "description": "Text shown in the popup when there is exactly one tracker on the page."
     },
     "domain_slider_allow_tooltip": {
-        "message": "Click here to allow this domain",
+        "message": "Cliqueu aquí per habilitar aquest domini",
         "description": "Tooltip shown when you hover over the rightmost part of a slider shown for each domain in the domain list."
     },
     "intro_privacy_note": {
-        "message": "Your Badger learns locally on your device. Privacy Badger will NEVER share data about your browsing unless you choose to share it.",
+        "message": "El vostre Badger(teixó), aprèn localment al vostre dispositiu. Privacy Badger MAI compartirà cap dada sobre la vostra navegació excepte que ho decidiu pel vostre compte.",
         "description": "Intro page paragraph."
     },
     "options_domain_list_trackers": {
-        "message": "Privacy Badger has detected $COUNT$ potential $TRACKER_LINK_START$tracking domains$TRACKER_LINK_END$ so far. These sliders let you control how Privacy Badger handles each tracker.",
+        "message": "Privacy Badger ha detectat $COUNT$ $TRACKER_LINK_START$rastrejadors$TRACKER_LINK_END$ potencials. Aquests lliscadors us permeten controlar com, Privacy Badger, actua sobre cadascun d'ells.",
         "description": "Message under the Tracking Domains tab on the options page. Shown after Privacy Badger learned about more than one tracker.",
         "placeholders": {
             "count": {
@@ -428,7 +428,7 @@
             },
             "tracker_link_start": {
                 "content": "$2",
-                "example": "<a title='What is a tracker?' href='https://www.eff.org/privacybadger/faq#What-is-a-third-party-tracker'>"
+                "example": "<a title='Què és un rastrejador?' href='https://www.eff.org/privacybadger/faq#What-is-a-third-party-tracker'>"
             },
             "tracker_link_end": {
                 "content": "</a>"
@@ -444,7 +444,7 @@
         "description": "Intro page paragraph."
     },
     "options_domain_status_filter": {
-        "message": "Filter by status:",
+        "message": "Filtreu per estat:",
         "description": "Label for a dropdown control on the Tracking Domains options page tab."
     },
     "report_text": {
@@ -514,51 +514,51 @@
         "description": "Button in the placeholder shown in place of certain third-party (video, audio, commenting) widgets. Clicking it will allow the third-party widget to load this one time only."
     },
     "sync_intro": {
-        "message": "Cloud sync:<ul><li>Requires Firefox/Chrome Sync</li><li>Upload overwrites any existing Privacy Badger data in the cloud</li><li>Download combines the lists of sites where your Badger is disabled</li></ul>",
+        "message": "Sincronització amb el núvol:<ul><li>Cal Firefox/Chrome Sync</li><li>Upload overwrites any existing Privacy Badger data in the cloud</li><li>Download combines the lists of sites where your Badger is disabled</li></ul>",
         "description": "A brief explanation of how syncing works. Shown above the upload/download cloud data buttons under the Manage Data options page tab."
     },
     "upload": {
-        "message": "Upload",
+        "message": "Puja",
         "description": "Button label for uploading data to the cloud on Manage Data options page tab."
     },
     "upload_cloud": {
-        "message": "Export disabled sites to cloud",
+        "message": "Exporta els llocs deshabilitats al núvol",
         "description": "Button title for uploading data to the cloud on Manage Data options page tab."
     },
     "download_cloud": {
-        "message": "Import disabled sites from cloud",
+        "message": "Importa els llocs deshabilitats des del núvol",
         "description": "Button title for downloading data from the cloud on Manage Data options page tab."
     },
     "download_cloud_success": {
-        "message": "Cloud data imported successfully.",
+        "message": "Les dades s'han importat correctament des del núvol.",
         "description": "Message displayed to the user after successfully merging cloud data."
     },
     "download_cloud_failure": {
-        "message": "Cloud data could not be downloaded.",
+        "message": "No es poden descarregar les dades del núvol.",
         "description": "Message displayed to the user after failing to download cloud data."
     },
     "upload_cloud_success": {
-        "message": "Cloud data uploaded successfully.",
+        "message": "Les dades s'han pujat correctament al núvol.",
         "description": "Message displayed to the user after successfully uploading local data."
     },
     "upload_cloud_failure": {
-        "message": "Cloud data could not be uploaded.",
+        "message": "No es poden pujar les dades al núvol.",
         "description": "Message displayed to the user after failing to upload local data."
     },
     "download_cloud_no_data": {
-        "message": "No cloud data to download.",
+        "message": "No hi ha dades per descarregar al núvol.",
         "description": "'Error' message when there is on cloud data to download."
     },
     "share_title": {
-        "message": "Tell your friends",
+        "message": "Comenteu-ho a altres persones",
         "description": "Title of the share overlay."
     },
     "popup_share_button": {
-        "message": "Share",
+        "message": "Compartiu",
         "description": "Tooltip that comes up when you hover over the share button in the upper right corner of the popup."
     },
     "share_tracker_header": {
-        "message": "Privacy Badger found $COUNT$ potential trackers on $DOMAIN$:",
+        "message": "Privacy Badger ha trobat $COUNT$ rastrejadors potencials a $DOMAIN$:",
         "description": "Header above the list of tracking domains in the share message.",
         "placeholders": {
             "count": {
@@ -572,15 +572,15 @@
         }
     },
     "share_base_message": {
-        "message": "Privacy Badger (www.eff.org/privacybadger) is a browser extension that automatically learns to block invisible trackers. Privacy Badger is made by the Electronic Frontier Foundation, a nonprofit that fights for your rights online.",
+        "message": "Privacy Badger (www.eff.org/privacybadger) és una extensió de navegador que aprèn automàticament a blocar rastrejadors invisibles. Privacy Badger ha estat desenvolupat per l'Electronic Frontier Foundation, una organització sense ànim de lucre que lluita pels vostres drets a la xarxa.",
         "description": "The base message that is always included in the share message."
     },
     "copy_button_initial": {
-        "message": "Copy to clipboard",
+        "message": "Copiar al portapapers",
         "description": "Initial text of the copy button on the share overlay."
     },
     "copy_button_copied": {
-        "message": "Copied",
+        "message": "Copiat",
         "description": "On-click text of the copy button on the share overlay."
     }
 }
